@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle Rivero - Web Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <header class="topBar">
+        <a class="brand" href="#home">MR</a>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button class="theme-btn" id="themeBtn" type="button" aria-label="Cambiar tema"><i id="themeIcon"
+                    class="bi bi-moon-fill"></i></button>
+        </nav>
+    </header>
+
+    <!-- home -->
+    <main>
+        <section id="home" class="hero">
+            <div class="section hero-grid">
+                <div class="hero-text">
+                    <p class="kicker">Hello, I'm</p>
+                    <h1>Michelle Rivero</h1>
+                    <p class="subtitle">
+                        Junior Web Developer (DAW) focused on HTML, CSS, and JavaScript.
+                        I build clean, accessible, and well-structured websites, with real projects explained step by
+                        step.
+                    </p>
+
+                    <div class="cta">
+                        <a class="btn" href="#projects">View projects →</a>
+                        <a class="btn btn-ghost" href="#contact">Contact</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-num">2+</span>
+                            <span class="stat-label">projects published</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">HTML/CSS/JS</span>
+                            <span class="stat-label">main tech stack</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">Geneve</span>
+                            <span class="stat-label">available in Switzerland</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="hero-slideshow" id="animacionHero">
+                <img src="media/heromoon.jpg" class="hero-image" alt="heroimage">
+                  <img src="media/herolight.jpg" class="hero-image" alt="heroimage"> 
+            </div> -->
+
+            <video id="bgVideo" class="hero-video" autoplay muted loop playsinline aria-hidden="true">
+                <source id="bgVideoSource" src="media/herovideomoon.mp4" type="video/mp4">
+                <!-- fallback -->
+            </video>
+
+            <!-- <div class="hero-overlay"></div> -->
+        </section>
+
+        <!--about-->
+        <section id="about" class="section">
+            <div class="section-head">
+                <h2>About me</h2>
+            </div>
+
+            <article class="card about-profile">
+                <h3>Profile</h3>
+                <p>
+                    I am a Junior Web Developer (DAW) with experience building websites and
+                    interactive features using JavaScript.
+                    I focus on clean structure, accessibility, and well-finished visual design.
+                </p>
+            </article>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>What I bring</h3>
+                    <ul class="list">
+                        <li>Clean UI with JavaScript logic and form validations</li>
+                        <li>Real projects with live demos and clear explanations</li>
+                        <li>Well-organized code: folders, naming conventions, and consistency</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Goal</h3>
+                    <p>
+                        To join a junior role where I can continue growing as a developer,
+                        strengthen my front-end foundations, and progressively move toward a full-stack profile,
+                        with the goal of completing specialized training in artificial intelligence applied
+                        to programming and web development.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <img class="avatar  about-photo" src="media/profile.jpg" alt="Foto de Michelle Rivero">
+                    <div class="mini">
+                        <div class="mini-item">
+                            <span class="mini-label">Focus</span><span>Front-end + JS</span>
+                        </div>
+                        <div class="mini-item">
+                            <span class="mini-label">Current</span><span>Looking for junior opportunities</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!--Skills-->
+        <section id="skills" class="skills">
+            <div class="section">
+                <div class=" section-head">
+                    <h2>Skills</h2>
+                    <p>Technologies, tools, and best practices I use in my projects.</p>
+                </div>
+
+                <div class="cards">
+                    <article class="card">
+                        <h3>Front-end</h3>
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">Responsive design</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Back-end</h3>
+                        <div class="tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Basic CRUD</span>
+                            <span class="tag">Server-side logic</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Databases</h3>
+                        <div class="tags">
+                            <span class="tag">MySQL Workbench</span>
+                            <span class="tag">SQL Server (foundations)</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>UI / UX & interaction</h3>
+                        <div class="tags">
+                            <span class="tag">AOS (Animate On Scroll)</span>
+                            <span class="tag">CSS animations</span>
+                            <span class="tag">Visual interaction</span>
+                        </div>
+                    </article>
+
+
+                    <article class="card">
+                        <h3>Tools</h3>
+                        <div class="tags">
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                            <span class="tag">GitHub Desktop</span>
+                            <span class="tag">Visual Studio Code</span>
+                            <span class="tag">Eclipse IDE</span>
+                            <span class="tag">Postman</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Design & prototyping</h3>
+                        <div class="tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI prototyping</span>
+                            <span class="tag">Interface design</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Other tools</h3>
+                        <div class="tags">
+                            <span class="tag">Oracle VirtualBox</span>
+                            <span class="tag">OBS Studio</span>
+                            <span class="tag">XML</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Best practices</h3>
+                        <div class="tags">
+                            <span class="tag">Basic web accessibility (WCAG)</span>
+                            <span class="tag">Semantic structure</span>
+                            <span class="tag">Form validation</span>
+                            <span class="tag">Clean and maintainable code</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--Projects-->
+        <section id="projects" class="section">
+            <div class="section-head">
+                <h2>Projects</h2>
+                <p>Real projects with live demos, source code, and clear technical decisions.</p>
+            </div>
+
+            <div class="projects">
+                <article class="card project">
+                    <div class="project-top">
+                        <h3>Michelle Dietética y Transformación</h3>
+                        <div class="tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">AOS</span>
+                            <span class="tag">Modal</span>
+                            <span class="tag">Lightbox</span>
+                        </div>
+                    </div>
+
+                    <p>
+                        Single-page website with animated hero section, section-based navigation,
+                        and interactive components. Includes a homepage slideshow, smooth scroll
+                        animations using AOS, image lightbox, and a form with JavaScript validation
+                        and confirmation.
+                    </p>
+
+                    <div class="project-actions">
+                        <a class="btn" href="https://TUUSUARIO.github.io/michelle-dietetica/" target="_blank"
+                            rel="noreferrer">Live Demo</a>
+                        <a class="btn btn-ghost" href="https://github.com/TUUSUARIO/michelle-dietetica" target="_blank"
+                            rel="noreferrer">Código</a>
+                    </div>
+                </article>
+
+                <article class="card project">
+                    <div class="project-top">
+                        <h3>Kodonyusu</h3>
+                        <div class="tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+
+                    <p>
+                        Web application developed as a DAW project featuring user registration and login,
+                        profile management, and data updates.
+                        Built with a layered structure and database connection, applying validation
+                        on both client and server sides.
+                    </p>
+
+                    <div class="project-actions">
+                        <a class="btn" href="#" target="_blank" rel="noreferrer">Live Demo</a>
+                        <a class="btn btn-ghost" href="#" target="_blank" rel="noreferrer">Código</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="section-head">
+                <h2>Contact</h2>
+                <p> Interested in my profile? Feel free to reach out or explore my work and experience.</p>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Get in touch</h3>
+                    <p>
+                        You can contact me by email or find more details in my CV and online profiles.
+                    </p>
+
+                    <div class="contact-links">
+                        <a class="btn" href="mailto:miichelleriivero@gmail.com">Email</a>
+                        <a class="btn btn-ghost" href="https://github.com/michellearl" target="_blank"
+                            rel="noreferrer">GitHub</a>
+                        <a class="btn btn-ghost" href="https://www.linkedin.com/in/michelle-rivero-635502204/"
+                            target="_blank" rel="noreferrer">LinkedIn</a>
+                        <a class="btn btn-ghost" href="media/Michelle_Rivero_CV.pdf" target="_blank" rel="noreferrer">
+                            Download CV
+                        </a>
+                    </div>
+                </article>
+                <article class="card-video">
+                    <video id="contactVideo" class="video" autoplay muted loop playsinline aria-hidden="true">
+                        <source id="contactVideoSource" src="media/contactmoon-video.mp4" type="video/mp4">
+                    </video>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>
+                <strong>About this website:</strong> Portfolio built with HTML, CSS, and JavaScript, without frameworks,
+                following a minimal design.
+            </p>
+            <p class="muted">© <span id="year"></span> Michelle Rivero.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
