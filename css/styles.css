@@ -119,8 +119,8 @@ a {
   position: relative;
   width: 100%;
   height: auto;
-  overflow: hidden;
-  padding: 345px 0;
+  overflow: visible;
+  padding: 150px 0;
 }
 
 .hero-grid {
